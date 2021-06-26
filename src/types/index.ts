@@ -1,6 +1,8 @@
 import { ButtonHTMLAttributes, ReactNode } from 'react';
 
-export type ButtonProps = ButtonHTMLAttributes<HTMLButtonElement>
+export type ButtonProps = ButtonHTMLAttributes<HTMLButtonElement> & {
+  isOutlined?: boolean;
+}
 
 export type AuthContextProviderProps = {
   children: ReactNode;
@@ -19,6 +21,9 @@ export type FirebaseQuestions = Record<string, {
     name: string;
     avatar: string;
   }
+  likes: Record<string, {
+    authorId: string;
+  }>
   content: string;
   isAnswered: boolean;
   isHighlighted: boolean;
@@ -26,6 +31,7 @@ export type FirebaseQuestions = Record<string, {
 
 export interface IQuestion {
   id: string;
+  children?: ReactNode;
   author: {
     name: string;
     avatar: string;
@@ -33,6 +39,8 @@ export interface IQuestion {
   content: string;
   isAnswered: boolean;
   isHighlighted: boolean;
+  likeCount: number;
+  likeId: string | undefined;
 }
 
 export interface IUser {

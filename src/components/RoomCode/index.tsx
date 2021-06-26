@@ -1,6 +1,6 @@
-import '../styles/room-code.scss';
-import { RoomCodeProps } from '../types';
-import copyImg from '../assets/images/copy.svg';
+import './styles.scss';
+import { RoomCodeProps } from '../../types';
+import copyImg from '../../assets/images/copy.svg';
 
 function RoomCode(props: RoomCodeProps) {
   function copyRoomCodeToClipboard() {
