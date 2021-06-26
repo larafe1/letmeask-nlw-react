@@ -4,6 +4,8 @@
   </a>
 </p>
 
+---
+
 <p align="center">
   <a href="https://reactjs.org/">
     <img src="https://img.shields.io/badge/built%20with-React.js-blueviolet">
@@ -18,7 +20,7 @@
 
 ## About
 
-Projeto de desenvolvimento da interface web de uma plataforma perguntas e respostas. Realizado durante a sexta edição da **Next Level Week** da [Rocketseat](https://rocketseat.com.br/)
+Projeto de desenvolvimento da interface web de uma plataforma perguntas e respostas em tempo real. Realizado durante a sexta edição da **Next Level Week** da [Rocketseat](https://rocketseat.com.br/)
 
 ## Preview
 
@@ -48,7 +50,7 @@ npm start
 
 > **This project is licensed under a [MIT License](https://github.com/felpshn/letmeask-nlw-react/blob/master/LICENSE)**
 
-<br>
+---
 
 <p align="center">
   Made with 💜 by Felipe Lara
