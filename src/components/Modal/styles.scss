@@ -1,0 +1,15 @@
+.modal-content {
+  display: block;
+  text-align: center;
+
+  span {
+    font-family: 'Poppins';
+  }
+
+  div {
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+}

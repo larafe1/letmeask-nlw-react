@@ -3,6 +3,7 @@ import { useHistory } from 'react-router-dom';
 
 import './styles.scss';
 import { useAuth } from '../../hooks/useAuth';
+import { useTheme } from '../../hooks/useTheme';
 import { database } from '../../services/firebase';
 import { Button } from '../../components/Button';
 import illustrationImg from '../../assets/images/illustration.svg';
@@ -10,6 +11,7 @@ import logoImg from '../../assets/images/logo.svg';
 import googleIcon from '../../assets/images/google-icon.svg';
 
 function Home() {
+  const { theme, toggleTheme } = useTheme();
   const history = useHistory();
   const { user, signInWithGoogle } = useAuth();
   const [roomCode, setRoomCode] = useState('');
@@ -50,6 +52,8 @@ function Home() {
       <main>
         <div className="main-content">
           <img src={logoImg} alt="Letmeask" />
+          <span>{theme}</span>
+          <button onClick={toggleTheme}>Toggle theme</button>
           <button onClick={handleCreateRoom} className="create-room">
             <img src={googleIcon} alt="Google logo" />
             Crie sua sala com o Google

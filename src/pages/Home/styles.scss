@@ -6,7 +6,7 @@
   aside {
     flex: 7;
 
-    background: #8359fd;
+    background: var(--primary-color);
     color: #fff;
 
     display: flex;
@@ -41,6 +41,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
+
+    @media(max-width: 850px) {
+      padding: 50px 0 120px 0;
+      min-height: 100vh;
+    }
   }
 
   .main-content {
@@ -81,11 +86,11 @@
 
     p {
       font-size: 14px;
-      color: #737380;
+      color: var(--lighter-text);
       margin-top: 16px;
 
       a {
-        color: #e559f9;
+        color: var(--secondary-color);
       }
     }
 
@@ -94,7 +99,7 @@
       height: 50px;
       border-radius: 8px;
       font-weight: 500;
-      background: #ea4335;
+      background: var(--tertiary-color);
       color: #fff;
 
       display: flex;

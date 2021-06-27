@@ -20,6 +20,10 @@
     max-width: 800px;
     margin: 0 auto;
 
+    @media(max-width: 850px) {
+      width: 95%;
+    }
+
     .room-title {
       margin: 32px 0 24px;
       display: flex;
@@ -28,12 +32,12 @@
       h1 {
         font-family: 'Poppins', sans-serif;
         font-size: 24px;
-        color: #29292e;
+        color: var(--darker-text);
       }
 
       span {
         margin-left: 16px;
-        background: #e559f9;
+        background: var(--secondary-color);
         border-radius: 9999px;
         padding: 8px 16px;
         color: #fff;
@@ -72,7 +76,7 @@
 
           > span {
             margin-left: 8px;
-            color: #29292e;
+            color: var(--darker-text);
             font-weight: 500;
             font-size: 14px;
           }

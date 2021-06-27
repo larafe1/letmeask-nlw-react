@@ -8,7 +8,7 @@ function Button({
   return (
     <button
       className={`button ${isOutlined ? 'outlined' : ''}`}
-      {...props} 
+      {...props}
     />
   );
 }
