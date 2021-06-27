@@ -4,7 +4,7 @@ export type ButtonProps = ButtonHTMLAttributes<HTMLButtonElement> & {
   isOutlined?: boolean;
 }
 
-export type AuthContextProviderProps = {
+export type CustomContextProviderProps = {
   children: ReactNode;
 }
 
@@ -28,6 +28,13 @@ export type FirebaseQuestions = Record<string, {
   isAnswered: boolean;
   isHighlighted: boolean;
 }>
+
+export type ThemeContextType = 'LIGHT' | 'DARK';
+
+export interface ITheme {
+  theme: ThemeContextType;
+  toggleTheme: () => void;
+}
 
 export interface IQuestion {
   id: string;

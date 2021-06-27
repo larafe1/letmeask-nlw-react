@@ -1,11 +1,11 @@
 import { createContext, useState, useEffect } from 'react';
 
-import { IAuthContext, AuthContextProviderProps, IUser } from '../types';
+import { IAuthContext, CustomContextProviderProps, IUser } from '../types';
 import { firebase, auth } from '../services/firebase';
 
 export const AuthContext = createContext({} as IAuthContext);
 
-function AuthContextProvider(props: AuthContextProviderProps) {
+function AuthContextProvider(props: CustomContextProviderProps) {
   const [user, setUser] = useState<IUser | undefined>();
 
   useEffect(() => {

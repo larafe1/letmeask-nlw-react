@@ -20,6 +20,10 @@
     max-width: 800px;
     margin: 0 auto;
 
+    @media(max-width: 850px) {
+      width: 95%;
+    }
+
     .room-title {
       margin: 32px 0 24px;
       display: flex;
