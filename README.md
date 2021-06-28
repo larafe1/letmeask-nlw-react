@@ -1,12 +1,13 @@
 <p align="center">
   <a href="https://github.com/felpshn/letmeask-nlw-react">
-    <img src="https://github.com/felpshn/letmeask-nlw-react/blob/master/src/assets/images/logo.svg">
+    <img width="250" height="250" src="https://github.com/felpshn/letmeask-nlw-react/blob/master/src/assets/images/logo.svg">
   </a>
 </p>
 
----
-
 <p align="center">
+  <a href="https://github.com/felpshn/letmeask-nlw-react/releases">
+    <img src="https://img.shields.io/badge/version-1.x-lightgrey">
+  </a>
   <a href="https://reactjs.org/">
     <img src="https://img.shields.io/badge/built%20with-React.js-blueviolet">
   </a>
@@ -28,7 +29,7 @@ Projeto de desenvolvimento da interface web de uma plataforma perguntas e respos
 ## Preview
 
 <p align="center">
-  <img src="https://github.com/felpshn/letmeask-nlw-react/blob/master/src/assets/images/cover.svg">
+  <img src="https://github.com/felpshn/letmeask-nlw-react/blob/master/.github/cover.svg">
 </p>
 
 ## How to use
