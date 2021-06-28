@@ -36,6 +36,11 @@ export interface ITheme {
   toggleTheme: () => void;
 }
 
+export interface IModal {
+  closeModal: () => void;
+  children: ReactNode;
+}
+
 export interface IQuestion {
   id: string;
   children?: ReactNode;

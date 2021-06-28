@@ -1,38 +1,35 @@
-import { useState } from 'react';
 import Modal from 'react-modal';
 
-const modalDialogStyles = {
+import './styles.scss';
+import { IModal } from '../../types';
+
+const modalStyles = {
   content: {
     inset: '50% 50% 50% 50%',
     borderRadius: '8px',
-    transform: 'translate(-50%, -50%)'
+    transform: 'translate(-50%, -50%)',
+    width: '30rem',
+    height: '10rem'
   }
 }
 
 Modal.setAppElement('body');
 
-function ModalDialog() {
-  const [isModalOpened, setIsModalOpened] = useState(false);
-
-  function openModalDialog() {
-    setIsModalOpened(true);
-  }
-
-  function closeModalDialog() {
-    setIsModalOpened(false);
-  }
-
+function ModalDialog({
+  closeModal,
+  ...props
+}: IModal) {
   return (
-    <div>
-      <Modal
-        style={modalDialogStyles}
-        isOpen={isModalOpened}
-        onRequestClose={closeModalDialog}
-        contentLabel="Example modal"
-      >
-        <span>Hello world</span>
-      </Modal>
-    </div>
+    <Modal
+      style={modalStyles}
+      isOpen={true}
+      onRequestClose={closeModal}
+      contentLabel="confirmation-modal"
+    >
+      <div className="modal-content">
+        {props.children}
+      </div>
+    </Modal>
   );
 }
 
