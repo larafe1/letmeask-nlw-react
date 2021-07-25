@@ -1,6 +1,3 @@
-@import 'themes/dark.scss';
-@import 'themes/light.scss';
-
 * {
   margin: 0;
   padding: 0;
@@ -17,9 +14,9 @@ body, input, button, textarea {
 }
 
 :root {
-  --background: #{$background};
-  --lighter-text: #{$lighter-text};
-  --darker-text: #{$darker-text};
+  --background: #f8f8f8;
+  --lighter-text: #737380;
+  --darker-text: #29292e;
   --primary-color: #835afd;
   --secondary-color: #e559f9;
   --tertiary-color: #ea4335;
