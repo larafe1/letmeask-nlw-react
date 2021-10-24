@@ -1,11 +1,11 @@
 <p align="center">
-  <a href="https://github.com/felpshn/letmeask-nlw-react">
-    <img width="250" height="250" src="https://github.com/felpshn/letmeask-nlw-react/blob/master/src/assets/images/logo.svg">
+  <a href="https://github.com/larafe1/nlw-react-letmeask">
+    <img width="250" height="250" src="https://github.com/larafe1/nlw-react-letmeask/blob/master/src/assets/images/logo.svg">
   </a>
 </p>
 
 <p align="center">
-  <a href="https://github.com/felpshn/letmeask-nlw-react/releases">
+  <a href="https://github.com/larafe1/nlw-react-letmeask/releases">
     <img src="https://img.shields.io/badge/version-1.x-lightgrey">
   </a>
   <a href="https://reactjs.org/">
@@ -17,7 +17,7 @@
   <a href="https://firebase.google.com/?hl=en">
     <img src="https://img.shields.io/badge/built%20with-Firebase-yellow">
   </a>
-  <a href="https://github.com/felpshn/letmeask-nlw-react/blob/master/LICENSE">
+  <a href="https://github.com/larafe1/nlw-react-letmeask/blob/master/LICENSE">
     <img src="https://img.shields.io/badge/license-MIT-orange">
   </a>
 </p>
@@ -29,7 +29,7 @@ Projeto de desenvolvimento da interface web de uma plataforma perguntas e respos
 ## Preview
 
 <p align="center">
-  <img src="https://github.com/felpshn/letmeask-nlw-react/blob/master/.github/cover.svg">
+  <img src="https://github.com/larafe1/nlw-react-letmeask/blob/master/.github/cover.svg">
 </p>
 
 ## How to use
@@ -37,9 +37,9 @@ Projeto de desenvolvimento da interface web de uma plataforma perguntas e respos
 #### Cloning project & Cd'ing into the folder
 
 ```elm
-git clone https://github.com/felpshn/letmeask-nlw-react.git
+git clone https://github.com/larafe1/nlw-react-letmeask.git
 
-cd letmeask-nlw-react
+cd nlw-react-letmeask
 ```
 
 #### Setting the required environment variables
@@ -69,7 +69,7 @@ npm start
 
 ### Considerations
 
-> **This project is licensed under a [MIT License](https://github.com/felpshn/letmeask-nlw-react/blob/master/LICENSE)**
+> **This project is licensed under a [MIT License](https://github.com/larafe1/nlw-react-letmeask/blob/master/LICENSE)**
 
 ---
 
